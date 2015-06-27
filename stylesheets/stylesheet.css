@@ -1,0 +1,84 @@
+body {
+    background-color: #EEE;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    background-color: #222;
+    color: white;
+    height: 100px;
+}
+
+nav {
+    background-color: #333;
+/*    height: 40px;*/
+}
+
+/*
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    font-size: 2em;
+}
+*/
+
+/*
+nav li.current-page {
+    background-color: burlywood;
+}
+*/
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    background-color: inherit;
+    transition: background-color 1s;
+    height: 100%;
+}
+
+nav a.current-page {
+    background-color: #222;
+}
+
+/*
+nav li.current-page a {
+    background-color: burlywood;
+}
+*/
+
+nav a:hover {
+    background-color: #222;
+    transition: background-color 1s;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h1 a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-content {
+    margin-left: 5%;
+}
+
+.main-content article {
+    margin-top: 5%;
+
+.main-content p {
+    margin-left: 1%;
