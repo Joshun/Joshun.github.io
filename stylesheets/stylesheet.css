@@ -19,47 +19,31 @@ body {
 
 nav {
     background-color: #333;
-/*    height: 40px;*/
 }
-
-/*
-nav li {
-    display: inline;
-    list-style: none;
-    padding: 0 20px 0 20px;
-    margin: 0;
-    font-size: 2em;
-}
-*/
-
-/*
-nav li.current-page {
-    background-color: burlywood;
-}
-*/
 
 nav a {
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
     color: white;
     font-size: 1em;
-    background-color: inherit;
-    transition: background-color 1s;
-    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
 }
 
-nav a.current-page {
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    transition: background-color 1s;
+}
+
+nav li.current-page {
     background-color: #222;
 }
 
-/*
-nav li.current-page a {
-    background-color: burlywood;
-}
-*/
-
-nav a:hover {
+nav li:hover {
     background-color: #222;
     transition: background-color 1s;
 }
@@ -80,6 +64,8 @@ h1 a {
 
 .main-content article {
     margin-top: 5%;
+}
 
 .main-content p {
     margin-left: 1%;
+}
