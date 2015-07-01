@@ -69,3 +69,43 @@ h1 a {
 .main-content p {
     margin-left: 1%;
 }
+
+.social-networks li {
+    list-style-type: none;
+    padding-left: 80px;
+    padding-top: 32px;
+    height: 64px;
+}
+
+.social-networks li.steam {
+    background: url('/logos/steam.png') no-repeat left top;
+}
+
+.social-networks li.facebook {
+    background: url('/logos/facebook.png') no-repeat left top;
+}
+
+.social-networks li.soundcloud {
+    background: url('/logos/soundcloud.png') no-repeat left top;
+}
+
+.social-networks li.twitter {
+    background: url('/logos/twitter.png') no-repeat left top;
+}
+
+
+.social-networks li.googleplus {
+    background: url('/logos/googleplus.png') no-repeat left top;
+}
+
+.social-networks li.github {
+    background: url('/logos/github.png') no-repeat left top;
+}
+
+.social-networks li.linkedin {
+    background: url('/logos/linkedin.png') no-repeat left top;
+}
+
+.social-networks li.musescore {
+    background: url('/logos/musescore.png') no-repeat left top;
+}
