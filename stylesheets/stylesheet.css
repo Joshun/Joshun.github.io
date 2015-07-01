@@ -109,3 +109,16 @@ h1 a {
 .social-networks li.musescore {
     background: url('/logos/musescore.png') no-repeat left top;
 }
+
+.social-networks a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-networks a:clicked {
+    color: inherit;
+}
+
+.social-networks a:hover {
+    color: grey;
+}
