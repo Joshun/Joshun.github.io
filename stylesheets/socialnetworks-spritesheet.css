@@ -5,43 +5,43 @@
 }
 
 .github-img {
-	background: url('imgs/sheet.png') no-repeat -79px -5px;
+	background: url('/logos/sheet.png') no-repeat -79px -5px;
 	width: 64px;
 	height: 64px;
 }
 
 .googleplus-img {
-	background: url('imgs/sheet.png') no-repeat -153px -5px;
+	background: url('/logos/sheet.png') no-repeat -153px -5px;
 	width: 64px;
 	height: 64px;
 }
 
 .linkedin-img {
-	background: url('imgs/sheet.png') no-repeat -227px -5px;
+	background: url('/logos/sheet.png') no-repeat -227px -5px;
 	width: 64px;
 	height: 64px;
 }
 
 .musescore-img {
-	background: url('imgs/sheet.png') no-repeat -5px -79px;
+	background: url('/logos/sheet.png') no-repeat -5px -79px;
 	width: 64px;
 	height: 64px;
 }
 
 .soundcloud-img {
-	background: url('imgs/sheet.png') no-repeat -79px -79px;
+	background: url('/logos/sheet.png') no-repeat -79px -79px;
 	width: 64px;
 	height: 64px;
 }
 
 .steam-img {
-	background: url('imgs/sheet.png') no-repeat -153px -79px;
+	background: url('/logos/sheet.png') no-repeat -153px -79px;
 	width: 64px;
 	height: 64px;
 }
 
 .twitter-img {
-	background: url('imgs/sheet.png') no-repeat -227px -85px;
+	background: url('/logos/sheet.png') no-repeat -227px -85px;
 	width: 64px;
 	height: 52px;
 }
