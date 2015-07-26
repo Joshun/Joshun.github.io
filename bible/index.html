@@ -1,0 +1,17 @@
+---
+layout: default
+title: Bible
+---
+
+<div class="main-content">
+	<ul class="entries">
+	{% for post in site.posts %}
+        {% if post.category == 'bible' %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <span class="date" >{{ post.date | date: "%d %B %Y" }}</span>
+            </li>
+        {% endif %}
+	{% endfor %}
+</div>
+

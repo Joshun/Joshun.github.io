@@ -1,0 +1,55 @@
+
+.music-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.music-links li {
+  padding: 20px 10px 20px 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+  white-space: wrap;
+}
+
+.music-links .soundcloud-frame {
+  display: flex;
+  width: 100%;
+}
+
+.music-links .download-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.download-container .download-image,
+.download-container .download-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-links .download-image {
+    padding-right: 15px;
+    background: url('/music/musescore_logo.png') no-repeat;
+    width: 64px;
+    height: 64px;
+}
+
+.music-links .download-link {
+    font-size: 20pt;
+}
+
+.music-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.music-links a:hover {
+  color: grey;
+}
