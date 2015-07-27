@@ -123,6 +123,10 @@ h1 a:hover {
     color: inherit;
 }
 
+.social-networks a:hover {
+  color: grey;
+}
+
 .entries li {
   list-style-type: none;
   padding-top: 30px;
