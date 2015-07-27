@@ -1,7 +1,7 @@
 body {
     background-color: #EEE;
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: 12pt;
 }
 
 a {
@@ -121,4 +121,17 @@ h1 a:hover {
 .social-networks a {
     text-decoration: none;
     color: inherit;
+}
+
+.entries li {
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+.entries .post-url {
+  font-size: 1.5em;
+}
+
+.entries .post-date {
+  font-style: italic;
 }
