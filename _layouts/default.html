@@ -16,7 +16,7 @@
     <nav class="banner">
         <ul>
             {% for node in site.pages %}
-                {% if node.url != '/index.html' %}
+                {% if node.url != '/' %}
                     {% if page.url == node.url %}
                         <li class="current-page"><a href="{{node.url}}">{{node.title}}</a></li>
                     {% else %}
